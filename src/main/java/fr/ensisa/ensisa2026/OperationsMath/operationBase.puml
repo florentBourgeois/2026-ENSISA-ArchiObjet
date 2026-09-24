@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Valeur{
+    v: int
+    Evaluer()
+}
+
+class Operation{
+    evaluer()
+}
+
+class Plus{
+    evaluer() : int
+}
+
+class Moins{
+    evaluer() : int
+}
+
+class Mult{
+     evaluer() : int
+
+}
+
+Operation --> Evaluable : a,b
+
+Operation <|-- Mult
+Operation <|-- Moins
+Operation <|-- Plus
+
+class Evaluable{
+    evaluer(): int
+}
+
+Evaluable <|-- Operation
+Evaluable <|-- Valeur
+
+@enduml
