@@ -1,4 +1,4 @@
-package fr.ensisa.ensisa2026.OperationsMath;
+package fr.ensisa.ensisa2026.composite.OperationsMath;
 
 public class Main {
 
