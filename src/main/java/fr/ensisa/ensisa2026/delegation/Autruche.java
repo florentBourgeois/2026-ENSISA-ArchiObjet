@@ -14,7 +14,7 @@ public class Autruche extends Oiseau {
 
     @Override
     public void affiche() {
-        System.out.print("Canard : ");
+        System.out.print("Autruche : ");
         super.affiche();
     }
 }
